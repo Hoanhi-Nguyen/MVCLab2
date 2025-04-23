@@ -15,7 +15,7 @@
             $productDAO->deleteProduct($productID);
         }
 
-        header("Location: listProducts.php");
+        header("Location: listProduct.php");
         exit;
     }
 ?>
